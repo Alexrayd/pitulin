@@ -1,0 +1,59 @@
+/*Propietats genèriques*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 768px) {
+body > header > ul  {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+body > header > ul > li {
+background-color: cornflowerblue;
+margin: 5px;
+width: 500px;
+text-align: center;
+align-items: center;
+font-size: x-large;
+border-radius: 4px;
+padding: 5px;
+}
+
+body > header > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+}
+
+@media screen and (min-width:769px) and (max-width: 1200px) {
+body > header > ul  {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    width: 700px;
+}
+
+body > header > ul > li{
+    display: flex;
+    background-color: cornflowerblue;
+    margin: 5px;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+    font-size: x-large;
+    border-radius: 4px;
+    height: 200px;
+    justify-content: center;
+}
+
+body > header > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
